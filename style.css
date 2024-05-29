@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #111;
+    font-family: "Kanit", sans-serif;
+    height: 96vh;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+}
+
+.image {
+    width: 12rem;
+}
+
+.heading {
+    color: white;
+    font-size: 3.92rem;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: row;
+    gap: 30rem;
+    margin: 5rem;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
